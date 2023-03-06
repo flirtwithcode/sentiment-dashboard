@@ -1,0 +1,62 @@
+<div style="display: block;margin-top:50px;">
+  <label for=""> <h5>Client Activities</h5></label>
+  <hr />
+  <canvas
+  style="margin-top:40px;"  
+  #myCanvas
+    baseChart
+    width="400"
+    height="75"
+    [datasets]="lineChartData"
+    [labels]="lineChartLabels"
+    [options]="lineChartOptions"
+    [colors]="lineChartColors"
+    [legend]="lineChartLegend"
+    [chartType]="lineChartType"
+    [plugins]="lineChartPlugins"
+  >
+  </canvas>
+  <div
+    style=" border: 0px solid black;
+  margin: 1px;
+  padding: 1px 1px;
+  text-align: right;"
+  >
+    <div
+      style="display: inline-block;
+  border: 1px solid grey;
+  padding: 8px 8px;
+  vertical-align: middle;
+  background:#E2F8B5"
+    ></div>
+    <span
+      style="font-size:12px;font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;"
+    >
+      Happy
+    </span>
+    <div
+      style="display: inline-block;
+border: 1px solid grey;
+padding: 8px 8px;
+vertical-align: middle;
+background:#F0F1C7;"
+    ></div>
+    <span
+      style="font-size:12px;font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;"
+    >
+      Neutral
+    </span>
+    <div
+      style="display: inline-block;
+border: 1px solid grey;
+padding: 8px 8px;
+vertical-align: middle;
+background:#FFE9E9;"
+    ></div>
+    <span
+      style="font-size:12px;font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;"
+    >
+      Sad</span
+    >
+  </div>
+</div>

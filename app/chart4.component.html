@@ -1,0 +1,19 @@
+<div style="display: block;margin-top:50px;">
+  <label for=""> <h5>Front Stage Activities</h5></label>
+  <hr />
+  <canvas
+    style="margin-top:40px;"
+    #myCanvas
+    baseChart
+    width="400"
+    height="75"
+    [datasets]="lineChartData"
+    [labels]="lineChartLabels"
+    [options]="lineChartOptions"
+    [colors]="lineChartColors"
+    [legend]="lineChartLegend"
+    [chartType]="lineChartType"
+    [plugins]="lineChartPlugins"
+  >
+  </canvas>
+</div>

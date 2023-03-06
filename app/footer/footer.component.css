@@ -1,0 +1,27 @@
+footer {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  background-color: #5b5b5b;
+  height: 40px;
+  font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;
+}
+
+.footer {
+  padding: 12px 30px;
+  color: #fff;
+  font-size: 13px;
+}
+.footer-links {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  padding-left: 25px;
+  font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;
+}
+footer a {
+  display: flex;
+  align-items: center;
+  font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;
+}

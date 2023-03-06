@@ -1,0 +1,14 @@
+<ag-grid-angular
+  style="height: 212px"
+  class="ag-theme-balham"
+  [columnDefs]="columnDefs"
+  [defaultColDef]="defaultColDef"
+  [rowSelection]="'single'"
+  [rowData]="rowData$"
+  [animateRows]="true"
+  [paginationAutoPageSize]="true"
+  [pagination]="false"
+  [rowHeight]="30"
+  (cellClicked)="onCellClicked($event)"
+  (gridReady)="onGridReady($event)"
+></ag-grid-angular>

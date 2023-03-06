@@ -1,0 +1,46 @@
+<!-- <div class="row">
+  <div class="col-md-6">
+    <ag-grid-angular
+      style="height: 250px"
+      class="ag-theme-balham"
+      [columnDefs]="columnDefs"
+      [defaultColDef]="defaultColDef"
+      [rowSelection]="'single'"
+      [rowData]="rowData$"
+      [animateRows]="true"
+      [paginationAutoPageSize]="true"
+      [pagination]="true"
+      (cellClicked)="onCellClicked($event)"
+      (gridReady)="onGridReady($event)"
+    ></ag-grid-angular>
+  </div>
+  <div class="col-md-6">
+    <ag-grid-angular
+      style="height: 250px"
+      class="ag-theme-balham"
+      [columnDefs]="columnDefs"
+      [defaultColDef]="defaultColDef"
+      [rowSelection]="'single'"
+      [rowData]="rowData$"
+      [animateRows]="true"
+      [paginationAutoPageSize]="true"
+      [pagination]="true"
+      (cellClicked)="onCellClicked($event)"
+      (gridReady)="onGridReady($event)"
+    ></ag-grid-angular>
+  </div>
+</div> -->
+<ag-grid-angular
+  style="height: 212px"
+  [rowHeight]="30"
+  class="ag-theme-balham"
+  [columnDefs]="columnDefs"
+  [defaultColDef]="defaultColDef"
+  [rowSelection]="'single'"
+  [rowData]="rowData$"
+  [animateRows]="true"
+  [paginationAutoPageSize]="true"
+  [pagination]="false"
+  (cellClicked)="onCellClicked($event)"
+  (gridReady)="onGridReady($event)"
+></ag-grid-angular>
