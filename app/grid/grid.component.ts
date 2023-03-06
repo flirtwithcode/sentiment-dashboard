@@ -25,8 +25,7 @@ export class GridComponent implements OnInit {
     console.log(params, 'parmas');
     return (
       '<div><span style="border-radius: 50% !important;width: 36px;padding: 6px;background: #007bff;color: white;text-align: center;font: 9px Arial, sans-serif;">' +
-      0 +
-      (params.rowIndex + 1) +
+      +(params.rowIndex + 1) +
       '</span><span style="padding-left:10px;top:100px;">' +
       params.value +
       '</span></div>'

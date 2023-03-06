@@ -23,8 +23,7 @@ export class OpportunitiesComponent implements OnInit {
   customActions = function (params) {
     return (
       '<div><span style="border-radius: 50% !important;width: 36px;height: 36px;padding: 6px;background: green;color: white;text-align: center;font: 9px Arial, sans-serif;">' +
-      0 +
-      (params.rowIndex + 1) +
+      +(params.rowIndex + 1) +
       '</span><span style="padding-left:10px;top:100px;">' +
       params.value +
       '</span></div>'
@@ -34,8 +33,7 @@ export class OpportunitiesComponent implements OnInit {
     if (params.rowIndex < 3)
       return (
         '<div><span style="border-radius: 50% !important;width: 36px;height: 36px;padding: 6px;background: green;color: white;text-align: center;font: 9px Arial, sans-serif;">' +
-        0 +
-        (params.rowIndex + 7) +
+        +(params.rowIndex + 7) +
         '</span><span style="padding-left:10px;top:100px;">' +
         params.value +
         '</span></div>'
@@ -43,7 +41,7 @@ export class OpportunitiesComponent implements OnInit {
 
     return (
       '<div><span style="border-radius: 50% !important;width: 36px;height: 36px;padding: 6px;background: green;color: white;text-align: center;font: 9px Arial, sans-serif;">' +
-      (params.rowIndex < 3 ? 0 + (params.rowIndex + 7) : params.rowIndex + 7) +
+      (params.rowIndex < 3 ? params.rowIndex + 7 : params.rowIndex + 7) +
       '</span><span style="padding-left:10px;top:100px;">' +
       params.value +
       '</span></div>'

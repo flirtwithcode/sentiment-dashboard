@@ -7,7 +7,11 @@ import { Color, Label } from 'ng2-charts';
   //template: `<h1>Hello {{name}}!</h1>`,
   templateUrl: './chart1.component.html',
   styles: [
-    `h1 { font-family: 'RobotoRegular', Helvetica, Arial, sans-serif; }`,
+    `h1 { font-family: 'RobotoRegular', Helvetica, Arial, sans-serif; }
+    .hide-pan .canvasjs-chart-toolbar > button:first-child {
+      display: none !important;
+    }
+    `,
   ],
 })
 export class Chart1Component {
