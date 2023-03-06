@@ -18,8 +18,8 @@ export class Chart3Component {
     const gradient = this.canvas.nativeElement
       .getContext('2d')
       .createLinearGradient(0, 0, 0, 200);
-    gradient.addColorStop(0, '#E2F8B5');
-    gradient.addColorStop(1, '#FFE9E9');
+    gradient.addColorStop(0, '#ffffff');
+    gradient.addColorStop(1, '#ffffff');
     this.lineChartColors = [
       {
         backgroundColor: gradient,
