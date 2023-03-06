@@ -103,7 +103,7 @@ export class Chart4Component {
             '',
             `<div style='margin-top:-260px;margin-left:-70px;color:#1277A3'>Enrollment</div><br/>`,
 
-            `<div style='margin-top:-195px;margin-left:-85px;color:#F7A444;z-index:-1;'>Request Submission<div style='margin-top:-10px; margin-left:65px;width:155px; height: 20px;background-color:#FFFFFF'></div></div><br/><div style=' height:50px;width: 150px;background-color: #fce7ce;color: #000;padding: 10px;'>Client account with  <br/biller is linked to BofA <br/> account </div>
+            `<div style='margin-top:-195px;margin-left:-85px;color:#F7A444;z-index:-1;'>Request Submission<div style='margin-top:-10px; margin-left:65px;width:155px; height: 20px;'></div></div><br/><div style=' height:50px;width: 150px;background-color: #fce7ce;color: #000;padding: 10px;'>Client account with  <br/biller is linked to BofA <br/> account </div>
           <br/>
           
          <div style=' height:100px;width:160px;background-color: #fce7ce;color: #000;padding: 10px;'>Client is emailed that <br>eBill pay option has <br>accepted for 

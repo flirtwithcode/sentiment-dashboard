@@ -105,13 +105,13 @@ export class Chart1Component {
           // Tooltip Element
           const toolTips = [
             '',
-            `<div style='margin-top:-45px;margin-left:-50px;color:#1277A3'>Enrollment</div><br/></div><br/><div style=' height:30px;width: 30px;background-color: #FFFFFF;color: #000;padding: 10px;margin-top:-110%'>3</div>`,
+            `<div style='margin-top:-45px;margin-left:-50px;color:#1277A3'>Enrollment</div><br/></div><br/><div style=' height:30px;width: 30px;color: #000;padding: 10px;margin-top:-110%'>3</div>`,
 
-            `<div style='margin-top:-130px;margin-left:-35px;color:#F7A444;z-index:-1;'>Request Submission<div style='margin-top:-10px; margin-left:35px;width:155px; height: 20px;background-color:#FFFFFF'></div></div><br/><div style='margin-top:10px; margin-left:65px;width:155px; height: 20px;background-color:#FFFFFF'></div></div><br/><div style=' height:30px;width: 30px;background-color: #FFFFFF;color: #000;padding: 10px;'>1.8</div>`,
+            `<div style='margin-top:-130px;margin-left:-35px;color:#F7A444;z-index:-1;'>Request Submission<div style='margin-top:-10px; margin-left:35px;width:155px; height: 20px;'></div></div><br/><div style='margin-top:10px; margin-left:65px;width:155px; height: 20px;'></div></div><br/><div style=' height:30px;width: 30px;color: #000;padding: 10px;'>1.8</div>`,
 
-            `<div style='margin-top:-165px;color:#7C1CC8;margin-left:-20px;'>Payment Processing</div><br/><br/><div style=' height:30px;width: 30px;background-color: #FFFFFF;color: #000;padding: 10px;margin-top:80%'>1.3</div>`,
+            `<div style='margin-top:-165px;color:#7C1CC8;margin-left:-20px;'>Payment Processing</div><br/><br/><div style=' height:30px;width: 30px;color: #000;padding: 10px;margin-top:80%'>1.3</div>`,
 
-            `<div style='margin-top:-115px;color:#D18BF2;margin-left:20px;'>Completion</div><br/></div></div><br/><div style=' height:30px;width: 30px;background-color: #FFFFFF;color: #000;padding: 10px;;margin-top:30%'>2.0</div>`,
+            `<div style='margin-top:-115px;color:#D18BF2;margin-left:20px;'>Completion</div><br/></div></div><br/><div style=' height:30px;width: 30px;color: #000;padding: 10px;;margin-top:30%'>2.0</div>`,
             ``,
           ];
           var tooltipEl = document.getElementById('chartjs-label');

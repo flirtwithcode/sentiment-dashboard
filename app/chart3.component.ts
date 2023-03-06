@@ -112,7 +112,7 @@ export class Chart3Component {
             '',
             `<div style='margin-top:-165px;margin-left:-20px;color:#1277A3'>Enrollment</div><br/>`,
 
-            `<div style='margin-top:-137px;margin-left:35px;color:#F7A444;z-index:-1;'>Request Submission<div style='margin-top:-10px; margin-left:65px;width:155px; height: 20px;background-color:#FFFFFF'></div></div><br/><div style=' height:80px;width: 150px;background-color: #fce7ce;color: #000;padding: 10px;'>Validate Client - <br/>account information<br/> with eBill eligible <br/>biller</div>
+            `<div style='margin-top:-137px;margin-left:35px;color:#F7A444;z-index:-1;'>Request Submission<div style='margin-top:-10px; margin-left:65px;width:155px; height: 20px;'></div></div><br/><div style=' height:80px;width: 150px;background-color: #fce7ce;color: #000;padding: 10px;'>Validate Client - <br/>account information<br/> with eBill eligible <br/>biller</div>
           <br/>`,
             `
           <div style='margin-top:-85px;color:#FFFFFF'> tt</div><br/><div style=' height:80px;width:160px;background-color: #fce7ce;color: #000;padding: 10px;'><span style="background: #4f86f7;border-radius: 30px;color: #fff;content: attr(badge);font-size: 11px;min-width: 20px;padding: 2px;position: absolute;text-align: center;margin: 4% 0% 0% -12%;">3</span>Determine if<br>payment is fraud;<br>cancel payment if<br>fraud</div><br>`,
